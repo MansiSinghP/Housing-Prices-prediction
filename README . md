@@ -1,0 +1,153 @@
+
+MACHINE LEARNING PROJECT- PREDICTING HOUSE PRICES
+
+Tuesday, October 27, 2020
+Machine learning in python-predicting housing prices
+ 
+
+Introduction
+
+In this project, we will develop and evaluate the performance and the predictive power of a model trained and tested on housing prices data.
+
+In this step we are going to load the housing price data from CSV file URL.
+
+1.    Import libraries
+
+First, let’s import all of the modules, functions and objects we are going to use .
+
+
+
+
+
+
+2.    loading the data set
+
+Using read_csv from pandas,we will load the dataset.
+
+
+
+
+
+
+
+
+3.    Dimensions and statistical summary of dataset
+
+
+
+
+ 
+
+OUTPUT-
+
+
+
+
+
+
+
+4. Exploratory Data Analysis
+
+Box and Whiskers plot,correlation matrix,Scatterplot and Histograms
+
+
+
+
+OUTPUT-
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Create a Validation Dataset
+
+The dataset is now split into two, 80% of which we will use to train, evaluate and select among our models, and 20% that we will hold back as a validation dataset.
+
+
+
+
+6. Developing Models
+
+Now we will test our dataset using 6 different algorithms:
+
+Logistic Regression (LR)
+Linear Discriminant Analysis (LDA)
+K-Nearest Neighbors (KNN)
+Classification and Regression Trees (CART)
+Gaussian Naive Bayes (NB)
+Support Vector Machines (SVM)
+
+
+
+OUTPUT-
+
+
+
+
+ we can see that it looks like Classification and regression trees (CART) has the largest estimated accuracy score at about 0.868 or 86.8%.
+
+7. SELECT BEST MODEL
+
+ We need to compare the models to each other and select the most accurate.
+
+ 
+
+ 
+
+
+
+
+Box and Whisker Plot Comparing Machine Learning Algorithms on the Housing prices Dataset-
+
+
+
+
+8. Make Predictions
+
+We must choose an algorithm to use to make predictions.
+
+The results in the previous section suggest that the Decision Tree classifier was  the most accurate model. We will use this model as our final model.
+
+
+
+
+ 
+
+OUTPUT-
+
+
+
+
+ 
+
+ 
+
+at October 27, 2020 No comments:  
+Email This
+BlogThis!
+Share to Twitter
+Share to Facebook
+Share to Pinterest
+Home
+Subscribe to: Posts (Atom)
+Search This Blog
+
+Home
+
+About Me
+Mansi S. Parihar
+View my complete profile
+
+Blog Archive
+October 2020 (1)
+
+Report Abuse
+2020 All Rights are Reserved.. Simple theme. Powered by Blogger.
